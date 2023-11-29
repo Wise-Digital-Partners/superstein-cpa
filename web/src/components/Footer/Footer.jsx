@@ -115,7 +115,9 @@ export const Footer = ({ otherClasses, services, industries, locations }) => {
               Blog
             </Link>
           </ul>
-          <!-- 231129 - THIS IS A COMMENT -->
+
+          <script type="text/javascript" src="//cdn.callrail.com/companies/148980433/67444ec1872757ca8def/12/swap.js"></script>
+          
           <ul className="flex flex-col">
             <li>
               <Link
