@@ -125,7 +125,7 @@ export const Footer = ({ otherClasses, services, industries, locations }) => {
               </Link>
             </li>
             <li className="mb-6 font-Public_Sans font-normal text-sm leading-[20px] tracking-[0.03em] text-white opacity-70">
-              3830 Hollywood Blvd., Suite 101 <br />
+              3830 Hollywood Blvd, Suite 101 <br />
               Hollywood FL 33021<br />
               (954) 602-9100
             </li>
@@ -260,13 +260,6 @@ export const Footer = ({ otherClasses, services, industries, locations }) => {
         </div>
       </div>
     </div>
-
-    <!-- 231128 - IWD @ Wise-Digital-Partners / superstein-cpa - Google tag (gtag.js) -->
-    <script async src=https://www.googletagmanager.com/gtag/js?id=G-Q7YFWF2ZZ6></script>
-    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-Q7YFWF2ZZ6'); </script>
-    <script type="text/javascript" src="//cdn.callrail.com/companies/148980433/67444ec1872757ca8def/12/swap.js"></script>
-
-
     
   )
 }
