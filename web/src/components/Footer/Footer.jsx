@@ -115,9 +115,6 @@ export const Footer = ({ otherClasses, services, industries, locations }) => {
               Blog
             </Link>
           </ul>
-
-          <script type="text/javascript" src="//cdn.callrail.com/companies/148980433/67444ec1872757ca8def/12/swap.js"></script>
-          
           <ul className="flex flex-col">
             <li>
               <Link
@@ -263,6 +260,13 @@ export const Footer = ({ otherClasses, services, industries, locations }) => {
         </div>
       </div>
     </div>
+
+
+    <script type="text/javascript" src="//cdn.callrail.com/companies/148980433/67444ec1872757ca8def/12/swap.js"></script>
+      
+    <script async src=https://www.googletagmanager.com/gtag/js?id=G-Q7YFWF2ZZ6></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-Q7YFWF2ZZ6'); </script>      
+
     
   )
 }
