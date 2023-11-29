@@ -260,11 +260,7 @@ export const Footer = ({ otherClasses, services, industries, locations }) => {
         </div>
       </div>
     </div>
-
-
-    <script type="text/javascript" src="//cdn.callrail.com/companies/148980433/67444ec1872757ca8def/12/swap.js"></script>
-
-    
+    <script type="text/javascript" src="//cdn.callrail.com/companies/148980433/67444ec1872757ca8def/12/swap.js"></script>    
   )
 }
 export default Footer
