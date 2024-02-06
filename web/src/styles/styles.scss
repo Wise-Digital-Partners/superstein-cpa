@@ -12,11 +12,12 @@ a.callbuttons {
 	background-color: #4679e5;
 	border-radius: 20pt;
 	margin: 0 0 -30px;
-	padding: 10pt 20pt;
-	/* width: -moz-max-content; */
-	/* width: -webkit-max-content; */
-	width: max-content;
 	min-width: 160pt;
+	padding: 10pt 20pt;
+	width: -moz-max-content;
+	width: -webkit-max-content;
+	width: max-content;
+	color: #FFF;
 }
 a.callbuttons:hover {
 	background-color: #4679e5cc;
