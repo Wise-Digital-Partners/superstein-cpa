@@ -7,7 +7,7 @@ body {
 
 
 
-/* IWD- 240206 */
+/* IWD - 240206 - PHONE BUTTONS */
 a.callbuttons {
 	background-color: #4679e5;
 	border-radius: 20pt;
@@ -32,5 +32,21 @@ a.callbuttons:hover {
 	border-radius: 14pt;
 	/* width: 100%; */
 	/* display: block; */
+}
+
+
+/* IWD - 240206 - HERO PHONE BUTTONS */
+.mb-6.hero_section_rich_text a {
+	background-color: #4679e5;
+	border-radius: 20pt;
+	color: #fff;
+	font-size: 18px;
+	margin: 30px 0 1px;
+	padding: 9pt 20pt;
+	display: inline-block;
+}
+.mb-6.hero_section_rich_text a:hover {
+	background-color: #4679e5cc;
+	background: linear-gradient(123.18deg,#e7f0ff -9.87%,#3f73e1 97.95%) padding-box,linear-gradient(123.18deg,#e7f0ff -9.87%,#3f73e1 97.95%) border-box;
 }
 
