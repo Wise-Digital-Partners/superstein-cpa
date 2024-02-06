@@ -10,8 +10,17 @@ body {
 /* IWD- 240206 */
 a.callbuttons {
 	background-color: #4679e5;
-	padding: 10pt 20pt;
 	border-radius: 20pt;
+	margin: 0 0 -30px;
+	padding: 10pt 20pt;
+	/* width: -moz-max-content; */
+	/* width: -webkit-max-content; */
 	width: max-content;
-	margin: 0;
+	min-width: 160pt;
 }
+a.callbuttons:hover {
+	background-color: #4679e5cc;
+	background: linear-gradient(123.18deg,#e7f0ff -9.87%,#3f73e1 97.95%) padding-box,linear-gradient(123.18deg,#e7f0ff -9.87%,#3f73e1 97.95%) border-box;
+}
+
+
