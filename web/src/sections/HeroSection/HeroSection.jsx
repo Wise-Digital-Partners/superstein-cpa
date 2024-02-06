@@ -47,8 +47,24 @@ export const HeroSection = ({
             <div className="mb-6 hero_section_rich_text">
               <RichText richText={_rawSubText} />
             </div>
-            <Button  {...button} />
-            <Button  {...button} />
+
+          <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="tel:1-954-602-9100"
+              className="callbuttons"
+            >
+              (954) 602-9100 FL
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="tel:1-864-999-2003"
+              className="callbuttons"
+            >
+              (864) 999-2003 SC
+            </a>
+            
           </div>
         </div>
       </section>
