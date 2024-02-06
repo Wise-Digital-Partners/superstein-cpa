@@ -216,7 +216,8 @@ export const Navbar = ({
               </div>
             </li>
           </ul>
-          <Button
+          
+          <xxxButton
             variant="primary"
             onClick={() => toggleFunc('Contact Us')}
             label="Book a Call"
@@ -249,12 +250,12 @@ export const Navbar = ({
           
         </div>
         
-        <xxxbutton
+        <button
           onClick={() => toggleNavbar(toggleNav)}
           className="pl-[22px] border-l-[1px] border-l-gray-800 h-[62px] lg:hidden flex items-center"
         >
           <Icon icon="navbar-hamburger-menu" iconHeight={24} iconWidth={24} />
-        </xxxbutton>
+        </button>
       </div>
     </nav>
   )
