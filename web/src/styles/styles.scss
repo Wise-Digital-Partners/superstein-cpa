@@ -24,5 +24,13 @@ a.callbuttons:hover {
 	background-color: #4679e5cc;
 	background: linear-gradient(123.18deg,#e7f0ff -9.87%,#3f73e1 97.95%) padding-box,linear-gradient(123.18deg,#e7f0ff -9.87%,#3f73e1 97.95%) border-box;
 }
-
+#HDRminibuttons a.callbuttons {
+	font-size: 12px;
+	margin: 0 5px;
+	font-weight: bold;
+	padding: 7pt 14pt;
+	border-radius: 14pt;
+	/* width: 100%; */
+	/* display: block; */
+}
 
