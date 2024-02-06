@@ -51,6 +51,21 @@ export const Footer = ({ otherClasses, services, industries, locations }) => {
               alt="ficpa-peer-review-program"
               className="h-[48px] w-[113px] hidden lg:block"
             />
+
+            <!-- 240206 - call buttons -->
+              <Link
+              to="tel:1-954-602-9100"
+              className="callbuttons"
+              >
+                (954) 602-9100 FL
+            </Link>
+            <Link
+              to="tel:1-864-999-2003"
+              className="callbuttons"
+              >
+                (864) 999-2003 SC
+            </Link>
+            
           </div>
           <ul className="flex flex-col gap-3">
             <Link
