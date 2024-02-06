@@ -53,19 +53,18 @@ export const Footer = ({ otherClasses, services, industries, locations }) => {
             />
 
             <!-- 240206 - call buttons -->
-              <Link
-              to="tel:1-954-602-9100"
+
+              
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="tel:1-954-602-9100"
               className="callbuttons"
-              >
-                (954) 602-9100 FL
-            </Link>
-            <Link
-              to="tel:1-864-999-2003"
-              className="callbuttons"
-              >
-                (864) 999-2003 SC
-            </Link>
-            
+            >
+              (954) 602-9100 FL
+            </a>
+
+              
           </div>
           <ul className="flex flex-col gap-3">
             <Link
