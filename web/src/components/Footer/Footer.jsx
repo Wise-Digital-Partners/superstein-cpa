@@ -60,8 +60,14 @@ export const Footer = ({ otherClasses, services, industries, locations }) => {
             >
               (954) 602-9100 FL
             </a>
-
-            <button class="whitespace-nowrap px-6 lg:px-[36px] py-[5px] lg:py-[7px] bg-addition_button_color rounded-full text-sm lg:text-lg font-normal text-white font-Poppins leading-6 primary_button_hover_transition" data-testid="button">Contact Us</button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="tel:1-864-999-2003"
+              className="callbuttons"
+            >
+              (864) 999-2003 SC
+            </a>
 
               
           </div>
