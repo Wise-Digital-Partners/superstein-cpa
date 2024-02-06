@@ -254,7 +254,7 @@ export const Navbar = ({
           className="pl-[22px] border-l-[1px] border-l-gray-800 h-[62px] lg:hidden flex items-center"
         >
           <Icon icon="navbar-hamburger-menu" iconHeight={24} iconWidth={24} />
-        </button>
+        </xxxbutton>
       </div>
     </nav>
   )
