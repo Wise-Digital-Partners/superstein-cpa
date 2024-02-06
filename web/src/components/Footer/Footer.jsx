@@ -51,10 +51,7 @@ export const Footer = ({ otherClasses, services, industries, locations }) => {
               alt="ficpa-peer-review-program"
               className="h-[48px] w-[113px] hidden lg:block"
             />
-
-            <!-- 240206 - call buttons -->
-
-              
+            
             <a
               target="_blank"
               rel="noopener noreferrer"
