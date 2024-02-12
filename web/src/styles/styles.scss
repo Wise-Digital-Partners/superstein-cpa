@@ -36,7 +36,9 @@ a.callbuttons:hover {
 
 
 /* IWD - 240206 - HERO PHONE BUTTONS */
-.mb-6.hero_section_rich_text a {
+/* IWD - 240211 - RICH AREA PHONE BUTTONS */
+.mb-6.hero_section_rich_text a,
+.generic_rich_text.mb-6 a {
 	background-color: #4679e5;
 	border-radius: 20pt;
 	color: #fff;
@@ -45,7 +47,8 @@ a.callbuttons:hover {
 	padding: 9pt 20pt;
 	display: inline-block;
 }
-.mb-6.hero_section_rich_text a:hover {
+.mb-6.hero_section_rich_text a:hover,
+.generic_rich_text.mb-6 a:hover {
 	background-color: #4679e5cc;
 	background: linear-gradient(123.18deg,#e7f0ff -9.87%,#3f73e1 97.95%) padding-box,linear-gradient(123.18deg,#e7f0ff -9.87%,#3f73e1 97.95%) border-box;
 }
