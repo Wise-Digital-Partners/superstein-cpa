@@ -59,7 +59,7 @@ export const ContactForm = ({
     }
   }
 
-  const [toggleState, setToggleState] = useState('book-meeting')
+  const [toggleState, setToggleState] = useState('send-message')
   const toggleTab = (index) => {
     setToggleState(index)
   }
