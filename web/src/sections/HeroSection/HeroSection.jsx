@@ -48,6 +48,8 @@ export const HeroSection = ({
               <RichText richText={_rawSubText} />
             </div>
 
+            <Button  {...button} />
+
             
           </div>
         </div>
