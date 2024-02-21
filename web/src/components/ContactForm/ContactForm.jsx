@@ -86,47 +86,6 @@ export const ContactForm = ({
         >
           Contact Us
         </Heading>
-        <div className="w-full flex flex-row items-center">
-          <button
-            onClick={() => toggleTab('book-meeting')}
-            className={clsx(
-              'flex items-center gap-2 justify-center text-xs sm:text-sm  font-sm leading-5 font-raleway font-semibold w-full py-[10px] rounded-tl-full rounded-bl-full',
-              toggleState === 'book-meeting'
-                ? 'bg-addition_button_color text-white '
-                : 'bg-gray-50 text-gray-400'
-            )}
-          >
-            <span
-              className={clsx(
-                'calender_book_a_meeting',
-                toggleState === 'book-meeting'
-                  ? 'bg-white'
-                  : 'bg-black opacity-40'
-              )}
-            ></span>
-            Book a meeting
-          </button>
-          <button
-            onClick={() => toggleTab('send-message')}
-            className={clsx(
-              'flex items-center gap-2 justify-center text-xs sm:text-sm font-sm leading-5 font-raleway font-semibold w-full py-[10px] rounded-tr-full rounded-br-full',
-              toggleState === 'send-message'
-                ? 'bg-addition_button_color text-white '
-                : 'bg-gray-50 text-gray-400'
-            )}
-          >
-            <span
-              className={clsx(
-                'eamil_send_a_message',
-                toggleState === 'send-message'
-                  ? 'bg-white'
-                  : 'bg-black opacity-40'
-              )}
-            ></span>
-            Send us a message
-          </button>
-        </div>
-
         {toggleState === 'book-meeting' && (
           <div className="mt-8">
             <iframe
